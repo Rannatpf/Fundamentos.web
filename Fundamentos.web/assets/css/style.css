@@ -1,0 +1,102 @@
+/*Estilos da pagina index.html*/
+.back{
+    background: url(https://images.rawpixel.com/image_450/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTg3ODk3NS13aWtpbWVkaWEtaW1hZ2Uta293ZGRleW4uanBn.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right:100px;
+    background-color: black;
+    padding: 40px;
+    
+  }
+#menu li {
+
+    display: inline;
+    padding: 10px;
+    position: relative;
+  }
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 150px;
+    font-size: 18px;
+  }
+  #menu li a {
+    text-decoration: none;
+    color: rgb(242, 238, 238);
+    font-size: 20px;
+  }
+  #menu li a:hover{
+    color: rgb(57, 7, 100);
+  }
+#img01 {
+    position: absolute 
+}
+
+.container1{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   color: rgb(7, 7, 7);
+    position: relative;
+   
+  }
+  .img1{
+    width: 300px;
+  }
+
+.container2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 7, 7);
+    
+}
+.img2{
+  width: 300px;
+}
+.container3{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    color:rgb(7, 7, 7);
+}
+
+.img3{
+  width: 500px;
+}
+.container4{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(7, 7, 7);
+}
+.container5{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    color:rgb(7, 7, 7);
+}
+
+.video{
+  display: flex;
+  flex-flow: row wrap;
+  margin-right: 200px;
+}
